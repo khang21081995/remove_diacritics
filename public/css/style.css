@@ -1,0 +1,24 @@
+.circle {
+  border: solid navy;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.circle:hover {
+  background: navajowhite;
+
+}
+
+body{
+  width: 500px;
+  height: 5000px;
+}
+
+.div1 {
+  border: 3px solid black;
+  outline: 6px solid blue;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
