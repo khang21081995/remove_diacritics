@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 20
+    },
+    "auditLog": "D:\\All_Project\\temp\\logs/.audit.json",
+    "files": [
+        {
+            "date": 1532169410505,
+            "name": "/Users/khangpq/Desktop/remove_diacritics/logs/temp.21-07-2018",
+            "hash": "9c9ccec3382c962664b714fcf138287a"
+        }
+    ]
+}

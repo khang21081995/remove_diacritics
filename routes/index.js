@@ -35,13 +35,14 @@ router.use('/swagger', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  res.render('index', {
-    title: 'Express'
-  });
+  // res.render('index', {
+  //   title: 'Express'
+  // });
+  res.redirect('/swagger');
 });
 
-router.get('/test',(req,res)=>{
- res.render('test');
+router.get('/test', (req, res) => {
+  res.render('test');
 });
 
 module.exports = router;

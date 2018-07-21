@@ -3,12 +3,11 @@ var config = {
   MONGO_DATABASE_PASSWORD: "admin",
   MONGO_DATABASE_URL: "@ds135760.mlab.com:35760/30shine_dev",
   APP_SECRET_KEY: "Khang.Pham",
-  API_PUSH_NOTIC: "https://api-push-notic.30shine.com",
   SWAGGER: {
-    APIS_PATH: ['./api/template/*.js'],
+    APIS_PATH: ['./api/characterprocess/*.js'],
     APIS_TAG: [{
-      name: "template",
-      description: "template apis"
+      name: "Remove",
+      description: "Remove apis"
     }]
   },
   BASE_URL: "quangkhang.com",
